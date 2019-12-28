@@ -1,9 +1,11 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { shallow } from 'enzyme';
 import App from './App';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+it('renders welcome message', () => {
+  // const wrapper = shallow(<App />);
+  // expect(wrapper.find('.App-logo')).toHaveLength(1);
+  // const welcome = <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">Learn React</a>;
+  //
+  // expect(wrapper).toContainReact(welcome);
 });
