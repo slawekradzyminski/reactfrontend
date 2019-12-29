@@ -65,8 +65,8 @@ class ListUserComponent extends Component {
                 <Table>
                     <TableHead>
                         <TableRow>
-                            <TableCell>Id</TableCell>
-                            <TableCell>FirstName</TableCell>
+                            <TableCell align="left">Id</TableCell>
+                            <TableCell align="right">FirstName</TableCell>
                             <TableCell align="right">LastName</TableCell>
                             <TableCell align="right">UserName</TableCell>
                             <TableCell align="right">Age</TableCell>
@@ -81,7 +81,7 @@ class ListUserComponent extends Component {
                                 </TableCell>
                                 <TableCell align="right">{row.firstName}</TableCell>
                                 <TableCell align="right">{row.lastName}</TableCell>
-                                <TableCell align="right">{row.username}</TableCell>
+                                <TableCell align="right">{row.userName}</TableCell>
                                 <TableCell align="right">{row.age}</TableCell>
                                 <TableCell align="right">{row.salary}</TableCell>
                                 <TableCell align="right" onClick={() => this.editUser(row.id)}><CreateIcon /></TableCell>
