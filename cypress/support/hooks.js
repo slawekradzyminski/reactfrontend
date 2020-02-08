@@ -1,5 +1,5 @@
 //  See: https://github.com/cypress-io/cypress/issues/95
-enableFetchWorkaround()
+enableFetchWorkaround();
 
 function enableFetchWorkaround() {
     let polyfill;
