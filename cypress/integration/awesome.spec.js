@@ -1,6 +1,6 @@
 import {firstUser, usersJson} from "../data/users";
 
-context('Window', () => {
+context('App', () => {
     beforeEach(() => {
         cy.prepareBackend();
         cy.visit('/');
